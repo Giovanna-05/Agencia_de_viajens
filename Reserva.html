@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rota Livre</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header -->
+<header class="header-banner">
+    <div class="container">
+        <h1>Rota Livre</h1>
+    </div>
+</header>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="agencia.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="destino.html">Pacotes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sobre.html">Sobre nós</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contato.html">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Reserva -->
+<section id="reserva" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Faça sua Reserva</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form id="reservaForm">
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome Completo</label>
+                        <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">E-mail</label>
+                        <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="celular" class="form-label">Celular</label>
+                        <input type="tel" class="form-control" id="celular" placeholder="(99) 99999-9999" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="destino" class="form-label">Destino</label>
+                        <select class="form-select" id="destino" required onchange="atualizarPreco()">
+                            <option selected disabled>Escolha seu destino</option>
+                            <option value="paris" data-preco="7000">Paris, França - R$7000 por pessoa</option>
+                            <option value="cancun" data-preco="6000">Cancún, México - R$6000 por pessoa</option>
+                            <option value="toquio" data-preco="10000">Tóquio, Japão - R$10000 por pessoa</option>
+                            <option value="suiça" data-preco="6500">Zurique, Suiça - R$6500 por pessoa</option>
+                            <option value="peru" data-preco="3000">Machu Picchu, Peru - R$3000 por pessoa</option>
+                            <option value="newyork" data-preco="4000">New York, EUA - R$4000 por pessoa</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="numPessoas" class="form-label">Número de Pessoas</label>
+                        <select class="form-select" id="numPessoas" required>
+                            <option value="1">1 Pessoa</option>
+                            <option value="2">2 Pessoas</option>
+                            <option value="3">3 Pessoas</option>
+                            <option value="4">4 Pessoas</option>
+                            <option value="5">5 Pessoas</option>
+                            <option value="6">6 Pessoas</option>
+                            <option value="7">7 Pessoas</option>
+                            <option value="8">8 Pessoas</option>
+                            <option value="9">9 Pessoas</option>
+                            <option value="10">10 Pessoas</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="dataIda" class="form-label">Data de Ida</label>
+                        <input type="date" class="form-control" id="dataIda" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="dataVolta" class="form-label">Data de Volta</label>
+                        <input type="date" class="form-control" id="dataVolta" required>
+                    </div>
+                    
+                    <!-- Forma de Pagamento -->
+                    <div class="mb-3">
+                        <label for="pagamento" class="form-label">Forma de Pagamento</label>
+                        <select class="form-select" id="pagamento" required>
+                            <option selected disabled>Escolha a forma de pagamento</option>
+                            <option value="cartao">Cartão de Crédito</option>
+                            <option value="boleto">Boleto Bancário</option>
+                            <option value="pix">Pix</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Finalizar Reserva</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2025 Rota Livre. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

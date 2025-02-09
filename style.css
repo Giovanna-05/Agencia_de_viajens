@@ -1,0 +1,300 @@
+/* Agência */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5 !important; /* Garante a aplicação da cor */
+    color: #333 !important;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Header */
+.header-banner {
+    background-image: url('Img/Rota Livre.png'); /* Corrigido o caminho da imagem */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    position: relative;
+    
+}
+
+.header-banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.header-banner .container {
+    position: relative;
+    z-index: 2;
+}
+
+.header-banner h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #f8f9fa !important;
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    color: #0056b3;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #007bff !important;
+    text-decoration: underline;
+}
+
+/* Banner com Carrossel */
+.carousel-inner {
+    height: 400px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    padding: 250px;
+}
+
+/* Destinos */
+#destinos {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+#destinos h2 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #ffa600;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #f59300;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 10px 0;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Sobre Nós */
+#sobre {
+    background-color: #ffffff;
+    color: #333;
+    padding: 50px 0;
+    font-family: 'Arial', sans-serif;
+}
+
+#sobre h2 {
+    font-size: 2.8rem;
+    color: #ffa600f5;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+#sobre p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #020202;
+    text-align: justify;
+    max-width: 800px;
+    margin: 0 auto;
+    transform: translateY(30px);
+    animation: fadeInUp 1s ease-in-out forwards;
+}
+
+#sobre strong {
+    color: #007bff;
+    font-size: 1.3rem;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Contato */
+#contato {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+#contato h2 {
+    font-size: 2.5rem;
+    color: #eb9719;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+/* Formulário */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #555;
+}
+
+.form-control {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+textarea.form-control {
+    resize: none;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Reserva */
+#reserva {
+    padding: 50px 0;
+    background-color: #ffffff;
+}
+
+#reserva h2 {
+    font-size: 2.5rem;
+    color: #ffae00;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+form {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+    font-weight: bold;
+    color: #054dac;
+}
+
+.form-control,
+.form-select,
+input[type="date"] {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+    width: 100%;
+}
+
+.form-control:focus,
+.form-select:focus,
+input[type="date"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    font-size: 1.2rem;
+    padding: 12px 0;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    #reserva {
+        padding: 30px 15px;
+    }
+
+    form {
+        padding: 20px;
+    }
+}
