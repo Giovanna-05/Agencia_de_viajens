@@ -30,7 +30,7 @@ Se tiver alguma dúvida ou sugestão, entre em contato pelo e-mail: giovannf465@
 
 Feito com ❤️ por Giovanna Ferreira 🚀
 
-Modelo conceitual e logico do banco de dados:
+📌Modelo conceitual e logico do banco de dados:
 
 ![Banco de dado conceitual C](https://github.com/user-attachments/assets/81116543-a82b-400d-88a2-b7ad1049fdc0)
 
