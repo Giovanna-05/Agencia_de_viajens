@@ -29,3 +29,7 @@ Bem-vindo ao repositório do site Rota Livre! 🏝️ Este projeto foi desenvolv
 Se tiver alguma dúvida ou sugestão, entre em contato pelo e-mail: giovannf465@gmail.com.
 
 Feito com ❤️ por Giovanna Ferreira 🚀
+
+Modelo conceitual e logico do banco de dados:
+
+![Descrição da imagem](assets/images/minha-imagem.png)
