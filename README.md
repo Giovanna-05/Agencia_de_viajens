@@ -1,6 +1,6 @@
-🌍 Travel Agency Website ✈️
+🌍 Travel Agency Website "Rota Livre" ✈️
 
-Bem-vindo ao repositório do site da nossa Agência de Viagens! 🏝️ Este projeto foi desenvolvido utilizando HTML, CSS, Bootstrap e SQL para fornecer uma experiência interativa e eficiente para os usuários planejarem suas viagens. 🧳
+Bem-vindo ao repositório do site Rota Livre! 🏝️ Este projeto foi desenvolvido utilizando HTML, CSS, Bootstrap e SQL para fornecer uma experiência interativa e eficiente para os usuários planejarem suas viagens. 🧳
 
 🚀 Tecnologias Utilizadas
 
@@ -18,9 +18,9 @@ Bem-vindo ao repositório do site da nossa Agência de Viagens! 🏝️ Este pro
 
 📩 Formulário de contato
 
-🔐 Sistema de login e cadastro de usuários
+🔐 Sistema reserva para usuários
 
-📌 Reserva de viagens com armazenamento no banco de dados
+📌 Conceito de reserva de viagens com armazenamento no banco de dados
 
 📱 Layout responsivo para melhor experiência em dispositivos móveis
 
