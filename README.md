@@ -32,4 +32,6 @@ Feito com ❤️ por Giovanna Ferreira 🚀
 
 Modelo conceitual e logico do banco de dados:
 
-![Descrição da imagem](Agencia_de_viajens/BD/Banco de dado conceitual C.PNG)
+![Banco de dado conceitual C](https://github.com/user-attachments/assets/81116543-a82b-400d-88a2-b7ad1049fdc0)
+
+![Banco de dados logico](https://github.com/user-attachments/assets/9e2b9fad-a02b-49fb-b3fe-820c0601edea)
