@@ -32,4 +32,4 @@ Feito com ❤️ por Giovanna Ferreira 🚀
 
 Modelo conceitual e logico do banco de dados:
 
-![Descrição da imagem](assets/images/minha-imagem.png)
+![Descrição da imagem](BD/Banco de dado conceitual C.PNG)
